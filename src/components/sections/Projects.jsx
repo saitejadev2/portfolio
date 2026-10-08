@@ -13,8 +13,8 @@ export default function Projects() {
           <article className={`project-card reveal${project.featured ? ' project-featured' : ''}`} key={project.title}>
             <div className={`project-art art-${artColors[index % artColors.length]}`} aria-hidden="true"><ProjectArt type={project.art} /></div>
             <div className="project-info">
-              <div><p className="project-type">{project.type} · {project.year}</p><h3>{project.title}</h3><p>{project.description}</p></div>
-              <a className="project-link" href={project.link} aria-label={`View ${project.title}`}>↗</a>
+              <div><p className="project-type">{project.type}{project.year ? ` · ${project.year}` : ''}</p><h3>{project.title}</h3><p>{project.description}</p></div>
+              <a className="project-link" href={project.link} target="_blank" rel="noreferrer" aria-label={`View ${project.title}`}>↗</a>
             </div>
             <ul className="project-tech">{project.technologies.map((item) => <li key={item}>{item}</li>)}</ul>
           </article>

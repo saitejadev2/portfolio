@@ -1,24 +1,23 @@
 // Add the newest experience first.
 export const experienceHeading = ['Where I’ve made', 'an impact.'];
-export const resume = { label: 'Download résumé', href: '/resume.pdf' };
 
 export const experience = [
   {
-    period: '2024 — Present',
-    role: 'Software Developer',
-    company: 'Technology Company · India',
-    description: 'Building customer-facing products, improving system reliability, and working across teams to deliver meaningful features.',
+    period: 'Sep 2025 — Present',
+    role: 'Software Engineer',
+    company: 'HCLTech · Hyderabad',
+    description: 'Building FastAPI workflow automation and email-to-ticket systems with Microsoft Graph, ServiceNow APIs, and Amazon Bedrock. The platform processes 50K+ tickets per day with idempotency, deduplication, retries, and safe failure recovery.',
   },
   {
-    period: '2023 — 2024',
-    role: 'Associate Software Developer',
-    company: 'Digital Solutions Studio · India',
-    description: 'Developed responsive web applications, integrated APIs, and helped turn product requirements into maintainable code.',
+    period: 'Dec 2024 — Jan 2025',
+    role: 'Software Engineering Intern',
+    company: 'Intrainz · Remote',
+    description: 'Optimized a React frontend to improve mobile Lighthouse performance by 20% and reduce LCP to 1.2 seconds, while building reusable components and integrating cached Node.js REST APIs.',
   },
   {
-    period: '2022 — 2023',
-    role: 'Developer Intern',
-    company: 'Software Lab · India',
-    description: 'Learned professional development workflows while contributing features, tests, and fixes to production projects.',
+    period: 'May 2024 — Nov 2024',
+    role: 'Machine Learning Research Intern',
+    company: 'IIT Indore · Indore',
+    description: 'Built a Hindi fake-news detection pipeline using IndicBERT embeddings across 15K tweets and news articles, achieving 88% accuracy and outperforming baseline models by 14%.',
   },
 ];

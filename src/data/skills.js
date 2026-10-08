@@ -2,18 +2,23 @@ export const skillsHeading = ['Tools I use to', 'make things happen.'];
 
 export const skills = [
   {
-    title: 'Frontend',
-    description: 'Interfaces that are fast, responsive, accessible, and a pleasure to use.',
-    items: ['JavaScript', 'TypeScript', 'React', 'Next.js', 'HTML & CSS'],
+    title: 'Languages',
+    description: 'Languages I use to build production software, services, and data-driven applications.',
+    items: ['C++', 'Python', 'JavaScript', 'TypeScript', 'SQL'],
   },
   {
-    title: 'Backend',
-    description: 'Dependable services, clean APIs, and data models built to grow.',
-    items: ['Node.js', 'Python', 'REST APIs', 'PostgreSQL', 'MongoDB'],
+    title: 'Backend & Web',
+    description: 'Reliable APIs, real-time communication layers, and responsive product experiences.',
+    items: ['FastAPI', 'Django', 'REST APIs', 'WebSockets', 'React'],
   },
   {
-    title: 'Workflow',
-    description: 'Practical tools and habits that turn good ideas into shipped software.',
-    items: ['Git', 'Docker', 'CI/CD', 'Testing', 'Agile'],
+    title: 'Data & Infrastructure',
+    description: 'Tools for persistent data, distributed messaging, deployment, and development workflows.',
+    items: ['PostgreSQL', 'Redis', 'Docker', 'Git', 'Linux/Bash'],
+  },
+  {
+    title: 'AI & Machine Learning',
+    description: 'Building retrieval, agentic, and natural-language systems grounded in real data.',
+    items: ['LLMs', 'RAG', 'Embeddings', 'Vector Databases', 'LangGraph', 'Hugging Face'],
   },
 ];

@@ -52,6 +52,9 @@ button { color: inherit; font: inherit; }
 .main-nav a::after { content: ""; position: absolute; left: 0; bottom: -8px; width: 100%; height: 2px; background: var(--ink); transform: scaleX(0); transform-origin: right; transition: transform .25s; }
 .main-nav a:hover, .main-nav a.active { color: var(--ink); }
 .main-nav a:hover::after, .main-nav a.active::after { transform: scaleX(1); transform-origin: left; }
+.main-nav .resume-nav-link { min-height: 42px; display: inline-flex; align-items: center; gap: 8px; margin-left: 4px; padding: 0 18px; color: var(--paper); border-radius: 999px; background: var(--ink); }
+.main-nav .resume-nav-link::after { display: none; }
+.main-nav .resume-nav-link:hover { color: var(--ink); background: var(--accent); }
 .menu-toggle { display: none; border: 0; background: transparent; cursor: pointer; }
 
 .hero { min-height: 100vh; position: relative; display: grid; align-items: center; padding: calc(var(--header-height) + 70px) clamp(22px, 6.5vw, 112px) 90px; overflow: hidden; }
@@ -209,6 +212,7 @@ h2 { margin-bottom: 0; font-size: clamp(43px, 5.5vw, 80px); line-height: 1.03; l
   .main-nav { position: fixed; inset: 0; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; gap: 24px; padding: 85px 9vw; background: var(--paper); opacity: 0; visibility: hidden; transform: translateY(-20px); transition: opacity .25s, visibility .25s, transform .25s; }
   .main-nav.open { opacity: 1; visibility: visible; transform: translateY(0); }
   .main-nav a { font-size: clamp(28px, 9vw, 48px); letter-spacing: -.05em; }
+  .main-nav .resume-nav-link { min-height: 52px; margin: 8px 0 0; padding: 0 22px; font-size: 14px; letter-spacing: 0; }
   .hero { padding-bottom: 100px; }
   h1 { font-size: clamp(53px, 16vw, 84px); }
   .hero-actions { align-items: flex-start; flex-direction: column; gap: 22px; }

@@ -1,5 +1,6 @@
 import { navigation } from '../data/navigation';
 import { profile } from '../data/profile';
+import { resume } from '../data/resume';
 
 export default function Header({ active, menuOpen, setMenuOpen, scrolled }) {
   return (
@@ -17,6 +18,9 @@ export default function Header({ active, menuOpen, setMenuOpen, scrolled }) {
             {item[0].toUpperCase() + item.slice(1)}
           </a>
         ))}
+        <a className="resume-nav-link" href={resume.href} target="_blank" rel="noreferrer">
+          {resume.label} <span aria-hidden="true">↗</span>
+        </a>
       </nav>
     </header>
   );

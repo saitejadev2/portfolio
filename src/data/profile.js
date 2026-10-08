@@ -1,7 +1,7 @@
 export const profile = {
-  name: 'N. Saiteja',
-  initials: 'NS',
-  location: 'India · IST',
-  specialty: 'Full-stack development',
-  availability: 'Available for opportunities',
+  name: 'Saiteja Nunemunthala',
+  initials: 'SN',
+  location: 'Hyderabad, India',
+  specialty: 'Backend & AI systems',
+  availability: 'Software Engineer at HCLTech',
 };

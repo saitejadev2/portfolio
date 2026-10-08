@@ -20,7 +20,8 @@ Each section has a small, dedicated data file:
 - `src/data/about.js` — biography and career statistics
 - `src/data/skills.js` — skill groups and technologies
 - `src/data/projects.js` — project cards and links
-- `src/data/experience.js` — employment history and résumé link
+- `src/data/experience.js` — employment history
+- `src/data/resume.js` — header résumé link
 - `src/data/contact.js` — email and social links
 - `src/data/navigation.js` — header navigation order
 
@@ -28,7 +29,7 @@ To add a project, copy one object inside the `projects` array in `src/data/proje
 
 All visual styling remains in `styles.css`.
 
-Add your résumé as `public/resume.pdf` if you want the résumé download button to work. Create the `public` folder when adding it.
+The header résumé button opens the Google Drive URL configured in `src/data/resume.js`. Update the file in Drive to keep the public résumé current without redeploying the site.
 
 ## Build for production
 

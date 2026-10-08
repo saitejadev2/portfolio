@@ -1,6 +1,6 @@
 export const hero = {
-  title: 'I build software that feels simple.',
-  introduction: 'A software developer focused on turning complex problems into useful, reliable, and thoughtfully crafted digital products.',
+  title: 'I build intelligent systems that scale.',
+  introduction: 'A software engineer building reliable backend platforms, AI-powered automation, and real-time products for complex workflows.',
   primaryAction: {
     label: 'Explore my work',
     href: '#projects',

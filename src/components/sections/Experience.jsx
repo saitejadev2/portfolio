@@ -1,6 +1,5 @@
-import ArrowIcon from '../ArrowIcon';
 import SectionHeading from '../SectionHeading';
-import { experience, experienceHeading, resume } from '../../data/experience';
+import { experience, experienceHeading } from '../../data/experience';
 
 export default function Experience() {
   return (
@@ -15,7 +14,6 @@ export default function Experience() {
           </article>
         ))}
       </div>
-      <a className="button button-outline reveal" href={resume.href} download>{resume.label} <ArrowIcon download /></a>
     </section>
   );
 }
